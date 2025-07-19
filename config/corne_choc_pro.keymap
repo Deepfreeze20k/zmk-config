@@ -15,6 +15,16 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Doppelpunkt {
+            bindings = <&kp DE_COLON>;
+            key-positions = <28 26>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
