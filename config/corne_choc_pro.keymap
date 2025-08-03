@@ -72,9 +72,9 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL          &kp DE_QUESTION   &kp DE_HASH  &kp DLLR     &kp PRCNT    &trans  &trans  &kp DE_LBRC  &kp DE_RIGHT_BRACE  &trans            &trans        &trans               &kp BSPC
-&kp LCTRL  &kp DE_AT_SIGN    &kp DE_AMPERSAND  &kp DE_STAR  &kp DE_LPAR  &kp DE_RPAR  &trans  &trans  &trans       &kp EQUAL           &trans            &trans        &kp DE_SINGLE_QUOTE  &kp GRAVE
-&kp LSHFT  &kp DE_BACKSLASH  &kp DE_FSLH       &kp DE_PIPE  &kp DE_LBKT  &kp DE_RBKT                  &kp UNDER    &kp DE_PLUS         &kp DE_SEMICOLON  &kp DE_COLON  &kp DE_MINUS         &kp DE_TILDE
+&kp TAB    &kp EXCL          &kp DE_QUESTION   &kp DE_HASH  &kp DLLR     &kp PRCNT    &trans  &trans  &kp DE_LBRC  &kp DE_RIGHT_BRACE  &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &trans               &kp BSPC
+&kp LCTRL  &kp DE_AT_SIGN    &kp DE_AMPERSAND  &kp DE_STAR  &kp DE_LPAR  &kp DE_RPAR  &trans  &trans  &kp DE_PLUS  &kp EQUAL           &trans            &trans               &kp DE_SINGLE_QUOTE  &kp DE_GRAVE
+&kp LSHFT  &kp DE_BACKSLASH  &kp DE_FSLH       &kp DE_PIPE  &kp DE_LBKT  &kp DE_RBKT                  &kp UNDER    &kp DE_PLUS         &kp DE_SEMICOLON  &kp DE_COLON         &kp DE_MINUS         &kp DE_TILDE
                                                &kp LGUI     &trans       &kp SPACE                    &kp RET      &trans              &kp RALT
             >;
         };
